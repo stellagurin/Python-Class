@@ -49,3 +49,28 @@ for i in shows:
 for i in range(0,100,2):
   if i % 2 == 1:
     print("Hello")
+    
+# Question 6 - A function is a series of statements that can be called.
+
+# Question 7 - valid way to define a function : def foo(): and def foofoo():
+
+# Question 8 - true statements : global variables can be used anywhere local variables can be used
+# AND local variables cannot be used outside of the scope of the function they were defined in.
+# AND global variables are declared in the outermost scope
+
+# Question 9 - output a = 54, b = 18
+a = 2
+b = 2
+
+def triple(number):
+  return number * 3
+
+a = triple(a)
+b = triple(a)
+a = triple(b)
+
+print(a)
+print(b)
+
+# Question 10 - A variable in a def statement that specifies an argument is refered to as a parameter
+
